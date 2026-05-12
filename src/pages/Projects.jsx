@@ -31,15 +31,7 @@ const data = [
         link: "https://e3maralazhar.vercel.app/",
         tech: ["Charts", "Tailwind", "React"],
     },
-    {
-        id: 3,
-        title: "System student management",
-        body: "Task management dashboard with analytics and charts.",
-        image:
-            "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1200&auto=format&fit=crop",
-        link: "https://e3maralazhar.vercel.app/",
-        tech: ["Charts", "Tailwind", "React"],
-    },
+
 ];
 
 export default function Projects() {
