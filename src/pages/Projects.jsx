@@ -8,7 +8,7 @@ const data = [
         body: "A stunning portfolio built with React and Tailwind CSS.",
         image:
             "https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200&auto=format&fit=crop",
-        link: "https://protfolioj.vercel.app/   ",
+        link: "ahmedyaser.vercel.app",
         tech: ["React", "Tailwind", "Framer Motion"],
     },
 
@@ -18,7 +18,7 @@ const data = [
         body: "Responsive ecommerce application with cart and payment.",
         image:
             "https://images.unsplash.com/photo-1556740749-887f6717d7e4?q=80&w=1200&auto=format&fit=crop",
-        link: "https://example.com",
+        link: "https://blog-main-z6cu.vercel.app/",
         tech: ["Redux", "API", "React"],
     },
 
