@@ -8,7 +8,7 @@ const data = [
         body: "A stunning portfolio built with React and Tailwind CSS.",
         image:
             "https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200&auto=format&fit=crop",
-        link: "ahmedyaser.vercel.app",
+        link: "https://ahmedyaser.vercel.app/",
         tech: ["React", "Tailwind", "Framer Motion"],
     },
 
