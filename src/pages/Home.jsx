@@ -1,8 +1,9 @@
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import profile from "../assets/profile.png";
-import { FaChevronDown, FaDownload, FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import { FaChevronDown, FaDownload, FaGithub, FaLinkedin, FaEnvelope, FaChevronRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import { GiFireworkRocket } from "react-icons/gi";
 
 function Home() {
     const [displayText, setDisplayText] = useState("");
@@ -125,13 +126,13 @@ function Home() {
                     {/* Buttons */}
                     <motion.div
                         variants={itemVariants}
-                        className="flex flex-col sm:flex-row gap-4 justify-center mb-12"
+                        className="flex flex-col sm:flex-row gap-4 justify-center pt-3"
                     >
                         <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
                             <Link to="/projects">
                                 <div className="px-8 py-4 rounded-2xl bg-gradient-to-r from-indigo-500 to-purple-500 text-white font-semibold shadow-lg hover:shadow-indigo-500/40 transition-all duration-300 flex items-center justify-center gap-2">
+                                    <GiFireworkRocket className="w-5 h-5" />
                                     View My Work
-                                    <FaChevronDown className="w-5 h-5" />
                                 </div>
                             </Link>
                         </motion.div>
@@ -172,7 +173,7 @@ function Home() {
                     </motion.div> */}
 
                     {/* Scroll Indicator */}
-                    <motion.div
+                    {/* <motion.div
                         className="absolute bottom-5 left-1/2 -translate-x-1/2"
                         animate={{ y: [0, 10, 0] }}
                         transition={{
@@ -181,7 +182,7 @@ function Home() {
                         }}
                     >
                         <FaChevronDown className="w-7 h-7 text-slate-400" />
-                    </motion.div>
+                    </motion.div> */}
                 </motion.div>
             </div>
         </section>
