@@ -7,10 +7,12 @@ import ProjectDetails from './pages/ProjectDetails'
 import Layout from './components/Layout'
 import Tecnology from './pages/Tecnology'
 import Connect from './pages/Connect'
+import { ThemeProvider } from './context/ThemeContext'
+
 function App() {
 
   return (
-    <>
+    <ThemeProvider>
       <BrowserRouter>
         <Layout>
           <Routes>
@@ -18,11 +20,11 @@ function App() {
             <Route path="/projects" element={<Projects />} />
             <Route path="/projectDetails" element={<ProjectDetails />} />
             <Route path="/tecnology" element={<Tecnology />} />
-            <Route path="/connect" element={< Connect />} />
+            <Route path="/connect" element={<Connect />} />
           </Routes>
         </Layout>
       </BrowserRouter>
-    </>
+    </ThemeProvider>
   )
 }
 
