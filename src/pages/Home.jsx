@@ -138,7 +138,7 @@ function Home() {
                         </motion.div>
 
                         <motion.a
-                            href="https://drive.google.com/uc?export=download&id=1QaFNgOGk4qseLFiE2ISU-ISD8dKzgBhf"
+                            href="https://drive.google.com/file/d/1pxpHpJKH6re6U4w8q-E7mtOeii8HcJyq/view?usp=sharing"
                             download
                             className="px-8 py-4 rounded-2xl border border-slate-300 dark:border-slate-700 bg-white/70 dark:bg-slate-800/70 backdrop-blur-md text-slate-700 dark:text-slate-300 font-semibold shadow-lg hover:shadow-xl transition-all duration-300 flex items-center justify-center gap-2"
                             whileHover={{ scale: 1.05 }}
